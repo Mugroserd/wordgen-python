@@ -1,0 +1,8 @@
+﻿vowels
+А Е И О O Я У
+vowelsend
+ТЬ ДЬ РЬ НТ
+consonants
+Б В Г Д С М Н П Р Т
+consonantsend
+ИЙ АЙ ЫЙ ЭЙ
