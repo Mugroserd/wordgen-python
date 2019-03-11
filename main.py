@@ -4,11 +4,10 @@ from tkinter import filedialog as fd
 
 root = Tk()
 root.geometry('800x400')
-img = PhotoImage(file='photo.gif')
 
 outputText = Label(bg='white', fg='black', font=("Impact", 34))
 outputText.place(relx=0.0, rely=0.0, relwidth=0.9, relheight=0.2)
-generateButton = Button(text="Генерация", image=img)
+generateButton = Button(text="Генерация")
 generateButton.place(relx=0.9, rely=0.0, relwidth=0.1, relheight=0.2)
 openFileButton = Button(text="Открыть файл")
 openFileButton.place(relx=0.3, rely=0.8, relwidth=0.4, relheight=0.2)
